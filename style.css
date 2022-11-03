@@ -1,0 +1,93 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* Vertical Navigation */
+.active{
+    background-color: rgb(101, 186, 101);
+}
+.t-center{
+    text-align: center;
+}
+#v-nav ul{
+    list-style: none;
+    background-color: rgb(0, 128, 0);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#v-nav ul li{
+    padding: 10px 35px;
+    color: white;
+    font-size: 20px;
+}
+#v-nav ul li:hover{
+    background-color: rgb(101, 186, 101);
+}
+#v-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+}
+#v-nav ul li a:hover{
+    text-decoration: none;
+}
+
+/* Image */
+figure{
+    margin: 0px;
+}
+img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+/* Horizontal Navigation */
+table{
+    float: left;
+    border-collapse: collapse;
+    margin-right: 10px;
+}
+th{
+    background-color: rgb(0, 191, 0);
+    color: white;
+    padding: 5px;
+
+}
+td{
+    font-weight:bold;
+    padding: 10px 5px 5px;
+    background-color: rgb(134, 255, 134);
+}
+td a{
+    text-decoration:none;
+    font-weight: bold;
+    color: black;
+}
+td:hover{
+    cursor: pointer;
+    background-color: rgb(101, 186, 101);
+}
+
+@media screen and (max-width:750px) {
+    
+    #v-nav ul li a{
+        font-size:15px;
+    }
+    #v-nav ul li{
+        padding: 7px 25px;
+    }
+    p{
+        clear: both;
+    }
+}
+@media screen and (max-width:550px) {
+    
+    #v-nav ul li a{
+        font-size:12px;
+    }
+    #v-nav ul li{
+        padding: 5px 10px;
+    }
+}
